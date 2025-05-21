@@ -63,7 +63,7 @@ public class UI {
         if (piece == null) {
             System.out.print("-");
         } else {
-            if (piece.getColor() == Color.WHITE) {
+            if (piece.getColor() == Color.BLACK) {
                 System.out.print(ANSI_YELLOW + piece + ANSI_RESET);
             } else {
                 System.out.print(ANSI_WHITE + piece + ANSI_RESET);
